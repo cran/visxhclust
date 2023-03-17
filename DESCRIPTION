@@ -1,7 +1,7 @@
 Package: visxhclust
 Type: Package
 Title: A Shiny App for Visual Exploration of Hierarchical Clustering
-Version: 1.0.0
+Version: 1.1.0
 Authors@R: c(person("Rafael", "Henkin",
                     email = "r.henkin@qmul.ac.uk", 
                     role = c("aut", "cre")))
@@ -15,15 +15,15 @@ LazyData: true
 Depends: R (>= 3.5.0)
 biocViews:
 Imports: shiny, shinyhelper, shinycssloaders, bsplus, DT, ggplot2,
-        dplyr, readr, tidyr, cluster, fastcluster, clusterCrit,
-        dunn.test, RColorBrewer, dendextend, ComplexHeatmap, circlize,
-        patchwork, knitr, kableExtra
-RoxygenNote: 7.1.1
+        dplyr, readr, tidyr, cluster, fastcluster, clValid, dunn.test,
+        RColorBrewer, dendextend, ComplexHeatmap, circlize, patchwork,
+        knitr, kableExtra
+RoxygenNote: 7.2.3
 Suggests: testthat (>= 3.0.0), rmarkdown
 VignetteBuilder: knitr
 Config/testthat/edition: 3
 NeedsCompilation: no
-Packaged: 2021-10-18 14:50:38 UTC; rafaelhenkin
+Packaged: 2023-03-16 14:43:48 UTC; rafaelhenkin
 Author: Rafael Henkin [aut, cre]
 Repository: CRAN
-Date/Publication: 2021-10-19 07:20:02 UTC
+Date/Publication: 2023-03-17 12:10:02 UTC
